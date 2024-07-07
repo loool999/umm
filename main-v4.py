@@ -127,4 +127,4 @@ def process_images(input_image_path, output_image_path, object_folder, process_f
         else:
             print(f"No new best image found in phase {phase + 1}")
 
-process_images(input_image_path, output_image_path, object_folder, process_folder, phase_folder, num_phases=3, iterations=40)
+process_images(input_image_path, output_image_path, object_folder, process_folder, phase_folder, num_phases=15, iterations=40)
