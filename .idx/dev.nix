@@ -7,6 +7,12 @@
   packages = [
     pkgs.python311
     pkgs.python311Packages.pip
+    pkgs.apt
+    pkgs.sudo
+    pkgs.libGL
+    pkgs.perl538Packages.OpenGL
+    pkgs.mesa
+    pkgs.opencv4
   ];
   # Sets environment variables in the workspace
   env = {};
